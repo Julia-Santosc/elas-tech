@@ -1,4 +1,4 @@
-package Arrays_Strings;
+package Strings;
 
  // 5 — Peça o nome da pessoa duas vezes e diga se os dois são iguais, ignorando maiúsculas e minúsculas.
 

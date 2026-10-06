@@ -1,8 +1,7 @@
-package Arrays_Strings;
+package Strings;
 
 // 2 — Peça o nome da pessoa e mostre ele todo em maiusculo e todo em minúsculo.
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class StringsDois {

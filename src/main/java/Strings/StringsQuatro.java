@@ -1,4 +1,4 @@
-package Arrays_Strings;
+package Strings;
 
 
 import java.util.Scanner;

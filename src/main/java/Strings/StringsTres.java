@@ -1,4 +1,4 @@
-package Arrays_Strings;
+package Strings;
 
 //3 — Peça o nome da pessoa e mostre a primeira letra dele.
 
