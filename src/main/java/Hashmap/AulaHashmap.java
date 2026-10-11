@@ -25,8 +25,6 @@ public class AulaHashmap {
         System.out.println(emails.get("Posição 2"));
         System.out.println();
 
-
-
     }
 
 }
