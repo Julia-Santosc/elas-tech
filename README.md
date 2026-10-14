@@ -1,6 +1,6 @@
 <div align="center">
 
-# João Santos
+# Julia Santos
 
 *Building scalable, high-performance systems with a strong emphasis on architecture, reliability, and data-driven decisions.*
 
