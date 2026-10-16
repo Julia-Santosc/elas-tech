@@ -25,7 +25,6 @@ public class PetShop {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o nome do animal: ");
-        nome = sc.nextDouble();
 
         System.out.println("Digite a espécie : ");
         especie = sc.nextLine();
