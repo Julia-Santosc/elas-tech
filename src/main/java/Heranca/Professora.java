@@ -4,14 +4,18 @@ public class Professora extends Pessoa {
     String disciplina;
 
     public void lancarNota(String aluna, double nota) {
-        System.out.printf("%s lançou nota %.1f para %s.", nome, nota, aluna);
+        System.out.printf("%s lançou nota %.1f para %s.\n", nome, nota, aluna);
     }
-
-    @Override
-    public void apresentar(){
-        System.out.printf("\nOi, sou %s e ensino %s. \n", nome, disciplina);
+    void apresentar(String cargo) {
+        System.out.println("Oi, sou " + nome + ", " + cargo);
     }
 }
+
+//    @Override
+//    public void apresentar(){
+//        System.out.printf("Oi, sou %s e ensino %s.\n", nome, disciplina);
+//    }
+//}
 
 
 

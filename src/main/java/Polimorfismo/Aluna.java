@@ -1,4 +1,7 @@
 package Polimorfismo;
 
-public class Aluna {
+public class Aluna extends Pessoa {
+    void estudar(){
+
+    }
 }

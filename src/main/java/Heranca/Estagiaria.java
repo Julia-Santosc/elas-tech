@@ -1,4 +1,4 @@
 package Heranca;
 
-public class Estagiaria {
+public class Estagiaria extends Pessoa {
 }
