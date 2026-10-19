@@ -5,6 +5,7 @@ public class MainHeranca {
     public static void main(String[] args) {
         Aluna alunaUm = new Aluna();
         Professora professora = new Professora();
+        Pessoa estagiaria = new Estagiaria();
 
         professora.disciplina = "Herança";
         professora.nome = "Julia";
@@ -13,12 +14,25 @@ public class MainHeranca {
         alunaUm.idade = 18;
         alunaUm.curso = "Java";
 
-        alunaUm.apresentar();
+        estagiaria.idade = 19;
+        estagiaria.nome = "Ana";
+
+//        alunaUm.apresentar();
         alunaUm.estudar();
 
         professora.lancarNota(alunaUm.nome, 9.3333);
 
-        professora.apresentar();
+//        professora.apresentar();
+
+//        estagiaria.apresentar();
+
+        mostrarFicha(alunaUm);
+        mostrarFicha(professora);
+        mostrarFicha(estagiaria);
+    }
+
+    static void mostrarFicha(Pessoa p) {
+        p.apresentar();
     }
 }
 
