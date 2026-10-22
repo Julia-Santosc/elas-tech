@@ -2,11 +2,12 @@ package Build;
 
 public class Main {
     public static void main(String[] args) {
-        Pizza pizza1 = new Pizza.Builder()
-        .borda("Catupiry")
-        .sabor("Mussarela")
-        .temQueijo(true)
-        .Build();
+        Pizza pizza = new Pizza.Builder()
+                .borda("catupiry")
+                .sabor("frango")
+                .temQueijo(true)
+                .build();
 
+        System.out.println(pizza);
     }
 }
