@@ -1,4 +1,4 @@
-package ArrayDeque;
+package arrayDeque;
 //4. Crie uma fila com três nomes e atenda todos usando
 //while (!fila.isEmpty()). No final, imprima "Fila vazia!".
 import java.util.Arrays;

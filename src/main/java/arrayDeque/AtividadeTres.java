@@ -1,4 +1,4 @@
-package ArrayDeque;
+package arrayDeque;
 
 import java.util.ArrayDeque;
 import java.util.List;
