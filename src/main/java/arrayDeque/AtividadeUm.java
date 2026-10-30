@@ -1,4 +1,4 @@
-package ArrayDeque;
+package arrayDeque;
 
 import java.util.ArrayDeque;
 //1. Crie uma fila e coloque três pessoas nela com add. Imprima a fila

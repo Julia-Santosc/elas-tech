@@ -1,4 +1,4 @@
-package ArrayDeque;
+package arrayDeque;
 //6. Crie uma fila vazia. Antes de usar o peek, teste com isEmpty():
 //        - se estiver vazia  -> "Não tem ninguém na fila."
 //        - se tiver gente    -> "Próximo: [nome]"

@@ -1,4 +1,4 @@
-package ArrayDeque;
+package arrayDeque;
 //5. Crie uma fila com três nomes e use contains para responder duas
 //perguntas: se "Bia" está na fila e se "Zoe" está.
 
