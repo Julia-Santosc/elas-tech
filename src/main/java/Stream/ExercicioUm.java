@@ -1,6 +1,7 @@
 package Stream;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 
@@ -10,7 +11,7 @@ public class ExercicioUm {
 
         List<Integer> pares = numeros.stream()
                 .filter( numero -> numero  % 2 == 0)
-                .toList();
+                .collect(Collectors.toList());
         System.out.println(pares);
     }
 }
